@@ -210,3 +210,10 @@ article {
   margin-bottom: 8px !important;
   margin-top: 5px;
 }
+
+/* Map */
+#map {
+  height: 200px;
+  border: 0;
+  width: 100%;
+}

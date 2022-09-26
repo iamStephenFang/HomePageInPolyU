@@ -10,7 +10,10 @@
     <link rel="bookmark" href="./images/favicon-32x32.png" type="image/x-icon" />
     <!-- Custom Configuration -->
     <link href="style.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="./js/page.js"></script>
+    <script src="https://kit.fontawesome.com/b302177620.js" crossorigin="anonymous"></script>
+    <script src="./js/map.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBT-eTQjFWeGSxfMUj5RA5F9YEV-HJcbew&callback=initMap"></script>
 </head>
 
 <body>
@@ -39,26 +42,27 @@
 
         <!-- Pic -->
         <div class="borderBox">
-            <a href="https://stephenfang.me"><img alt="" src="./images/IDCard.jpg"></a>
+            <h1 id="-hello">👋 你好</h1>
+            <a href="https://stephenfang.me"><img alt="Image of Xuanmiao Fang" src="./images/IDCard.jpg"></a>
         </div>
 
         <!-- Self Intro -->
         <article class="borderBox">
-            <h1 id="-hello">👋 你好</h1>
+            <h1 id="intro">About Me</h1>
             <p>I'm Xuanmiao Fang, a MSc student of the Department of Computing (COMP), The Hong Kong Polytechnic
                 University
                 (PolyU).</p>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1222.2782167656198!2d114.18046008981092!3d22.303822804345355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400e809c71ff1%3A0xeb7151a34a54910d!2z6aaZ5riv55CG5bel5aSn5a2m!5e0!3m2!1szh-CN!2shk!4v1663591233795!5m2!1szh-CN!2shk"
-                style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <h2 id="-education">🏫 Education</h2>
+            <div id="map"></div>
+            <h2 id="-education">🎓 Education</h2>
             <ul>
-                <li>🎓 The Hong Kong Polytechnic University ｜ MSc student in Information Technology </li>
-                <li>💼 Hangzhou NetEase Cloud Music Technology Co., Ltd ｜ Senior iOS Engineer </li>
-                <li>🎓 Zhejiang University of Technology ｜ B.Eng in Software Engineering | Knowledge Graph &amp; Big
+                <li>The Hong Kong Polytechnic University ｜ MSc student in Information Technology </li>
+                <li>Zhejiang University of Technology ｜ B.Eng in Software Engineering | Knowledge Graph &amp; Big
                     Data
                 </li>
+            </ul>
+            <h2 id="-Employment">💼 Employment</h2>
+            <ul>
+                <li>Hangzhou NetEase Cloud Music Technology Co., Ltd ｜ Senior iOS Engineer </li>
             </ul>
             <h2 id="-expertise">💻 Expertise</h2>
             <ul>
@@ -74,12 +78,32 @@
             </ul>
             <h2 id="-how-to-reach-me">📮 How to reach me</h2>
             <ul>
-                <li>Telegram <a href="https://t.me/stephenfang">https://t.me/stephenfang</a></li>
-                <li>LinkedIn <a
+                <li>
+                    <i class="fa-brands fa-telegram"></i>
+                    Telegram
+                    <a href="https://t.me/stephenfang">https://t.me/stephenfang</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-linkedin"></i>
+                    LinkedIn
+                    <a
                         href="https://www.linkedin.com/in/stephen-fang-aa811a32/">https://www.linkedin.com/in/stephen-fang-aa811a32/</a>
                 </li>
-                <li>Twitter <a href="https://twitter.com/Fangxuanmiao">https://twitter.com/Fangxuanmiao</a></li>
-                <li>Github <a href="https://github.com/iamStephenFang">https://github.com/iamStephenFang</a></li>
+                <li>
+                    <i class="fa-brands fa-twitter"></i>
+                    Twitter
+                    <a href="https://twitter.com/Fangxuanmiao">https://twitter.com/Fangxuanmiao</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-github"></i>
+                    Github
+                    <a href="https://github.com/iamStephenFang">https://github.com/iamStephenFang</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    E-mail
+                    <a href="mailto:stephen.fang@connect.polyu.hk">stephen.fang@connect.polyu.hk</a>
+                </li>
             </ul>
             <h2 id="-related-info">📁 Related Info</h2>
             <ul>
