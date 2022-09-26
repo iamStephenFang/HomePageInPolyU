@@ -68,18 +68,14 @@ article {
   left: 0;
   width: 100%;
   z-index: 100;
-}
-
-.navBar-inverse {
   background-color: rgba(0, 0, 0, 0.9);
   border-color: rgba(0, 0, 0, 0.9);
 }
 
 .header {
-  margin: 0 5rem;
+  margin: 0 5%;
   position: relative;
   height: 3rem;
-  min-width: 60rem;
 }
 
 .header .logo a img {
@@ -88,7 +84,7 @@ article {
   margin-right: 0.75rem;
 }
 
-.navBar-inverse .navBar-nav a {
+.navBar-nav a {
   font-size: 0.75rem;
   color: #e6ebec;
   letter-spacing: 0;
@@ -96,15 +92,8 @@ article {
   font-weight: bold;
 }
 
-/*Nav-content*/
-
-.nav-content {
-  display: flex;
-}
-
 .nav-content .navBar-nav {
   height: 3rem;
-  text-align: center;
   width: 100%;
   pointer-events: auto;
   align-items: center;
@@ -116,8 +105,7 @@ article {
   letter-spacing: 0;
   line-height: 3rem;
   display: inline-block;
-  text-align: center;
-  margin-right: 2.5rem;
+  margin-left: 2rem;
 }
 
 /* Content */
@@ -221,20 +209,4 @@ article {
   padding-right: 24px !important;
   margin-bottom: 8px !important;
   margin-top: 5px;
-}
-
-input[type="checkbox"] {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  .nav-content {
-    display: none;
-    position: absolute;
-    text-align: center;
-  }
-
-  input[type="checkbox"]:checked ~ .nav-content {
-    display: block;
-  }
 }
